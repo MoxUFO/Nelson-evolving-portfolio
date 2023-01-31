@@ -1,3 +1,24 @@
+* {
+    border: 1px solid red;
+    margin: 5px;
+}
 body {
-    background-color: rgb(79, 102, 34);
+    background-color: olive;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: tan;
+}
+
+header h1 {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+nav a {
+    font-weight: bold;
+    color: black;
 }
