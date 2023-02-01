@@ -1,9 +1,10 @@
-* {
+/* * {
     border: 1px solid red;
     margin: 5px;
-}
+} */
 body {
     background-color: olive;
+    height: 100%;
 }
 
 header {
@@ -11,6 +12,8 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: tan;
+    height: 75px;
+    width: 100%;
 }
 
 header h1 {
@@ -22,3 +25,74 @@ nav a {
     font-weight: bold;
     color: black;
 }
+
+.banner {
+    height: 525px;
+    width: 100%;
+    background-image: url("../assest/images/bannerphoto.jpg.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.about-me {
+    width: 100%;
+    background-color: rgb(104, 64, 19);
+    text-align: center;
+}
+
+.bio {
+    display: flex;
+}
+
+.bio img {
+    margin: 30px;
+    height: 250px;
+    width: 250x;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work {
+    background-color: rgb(75, 75, 6);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 5%;
+}
+
+.link{
+    border-style: solid;
+    border-width: 1px;
+    width: 32%;
+    border-radius: 12px;
+    margin: 5px;
+    
+}
+
+.work h2 {
+    transform: rotate(-90deg);
+}
+
+.work-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+.work-card img {
+    height: 200px;
+    width: 100%;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+section h3 {
+    background-color: rgb(104, 64, 19);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
