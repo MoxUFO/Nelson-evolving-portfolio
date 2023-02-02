@@ -81,7 +81,41 @@ main{
     width: 20%;
 }
 
+.work h2 {
+    transform: rotate(-90deg);
+}
+
+.work-card {
+   
+    flex-wrap: wrap;
+    flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.big-link{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
 .link{
+    height: 380px;
+    margin-left: 9px;
+   
+}
+
+.big-link img{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    
+}
+
+.links{
     border-style: solid;
     border-width: 1px;
     width: 32%;
@@ -90,20 +124,12 @@ main{
     
 }
 
-.work h2 {
-    transform: rotate(-90deg);
+.small-links {
+    display: flex;
 }
 
-.work-card {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1 0 0;
-  padding: 10px;
-  text-align: center;
-  justify-content: center;
-}
-.work-card img {
-    height: 200px;
+.small-links img {
+    
     width: 100%;
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
@@ -142,7 +168,7 @@ section h3 {
 }
 
 .resume-info p{
-    /* display: none; */
+ 
 }
 
 .resume-info:focus-visible p {
@@ -161,4 +187,37 @@ section h3 {
 #contact-me {
     padding-top: 60px;
     padding-bottom: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    main,
+    header {
+        flex-direction: column;
+    }
+    .work {
+        justify-content: center;
+        height: 225px; 
+        width: 100%;       
+    }
+    .work h2{
+        transform: rotate(720deg);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .link{
+        width: 100%;
+    }
+
+    .work-card{
+        width: 100%;
+    }
+    .small-links{
+        display: block;
+        width: 100%;
+    }
+    .links{
+        width: 100%;
+    }
+    
 }
