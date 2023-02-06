@@ -7,6 +7,9 @@ This repo contains the files for My live protfolio. The portfolio contains infor
 
 my motivation for this project was to create a portfolio that shows my work experience and shows a peek at who i am and one of my hobbies.
 
+## What i learned
+I learned how to operate css and html a bit better after this project. building from the ground up was a challenge in itself, let alome trying to get the page to do what you want it to do. 
+
 
 ## Installation
 
