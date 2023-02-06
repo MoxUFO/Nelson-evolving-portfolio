@@ -60,9 +60,9 @@ nav a {
     border-width: 2px;
     height: 525px;
     width: 100%;
-    background-image: url("./images/bannerphoto2.jpg");
+    background-image: url("./images/newbanner.jpg");
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
 }
 
 .about-me {
