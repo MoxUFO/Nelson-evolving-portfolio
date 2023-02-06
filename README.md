@@ -22,4 +22,4 @@ Parts of the webpage acts as links to other websites that may include but not li
 
 The nav bar to the right of the header links to sections of the page as specified. the images in the work section are links to outside website applications that i have worked on. the contact me section are links to way of how to contact me. lastly the resume section hold links to my work experience. 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+
