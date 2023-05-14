@@ -167,6 +167,7 @@ main{
     background-image: url(./images/bannerphoto.jpg.jpg);
     
     width: 100%;
+    height: 94%;
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
 }
